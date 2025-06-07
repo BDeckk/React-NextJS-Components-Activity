@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+
 export default function StudentInfo() {
   const [formData, setFormData] = useState({
     name: '',
@@ -25,13 +26,14 @@ export default function StudentInfo() {
 
       padding: "20px",
       marginTop: "20px",
-      border: "2px solid #ff6600",
-      borderRadius: "10px"
+      border: "2px solid #FBF3C1",
+      borderRadius: "10px",
+      textAlign: "center"
 
     }}>
-      <h2>Student Information Form</h2>
-
-      <form onSubmit={handleSubmit}>
+      <h2 style={{marginBottom: "20px"}}>Student Information Form</h2>
+{/* student information input with error handling(required input) */}
+      <form onSubmit={handleSubmit}> 
         
         <div style={{ marginBottom: "10px" }}>
           <label>
@@ -61,7 +63,7 @@ export default function StudentInfo() {
           </label>
         </div>
 
-        <button type="submit">Submit</button>
+        <button type="submit" style={{marginTop: "15px"}}>Submit</button>
 
       </form>
 
