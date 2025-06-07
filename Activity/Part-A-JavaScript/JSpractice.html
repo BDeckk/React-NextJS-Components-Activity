@@ -2,22 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="JSstyle.css">
   <title>JavaScript Fundamentals</title>
-
+  <link rel="stylesheet" href="JSstyle.css">
 </head>
 <body>
-  <h1 id="title">Hello JS</h1>
+  <div class="container">
+    <h1 id="title">Hello JS</h1>
 
     <button id="info" onclick="showInfo()">Show User's Information</button>
-   <h1 id="greeting"></h1>
-   <ul id="prog_lang"></ul>
-   <div id="student-info"></div>
-    
-    <div id="output"></div>
-    <button onclick="goodbye('JavaScript')">Goodbye</button>
-    <h1 id="gb"></h1>
+    <h2 id="greeting"></h2>
 
- <script src="JSscript.js"></script>
+    <div id="student-info" class="info-box"></div>
+    
+    <ul id="prog_lang"></ul>
+
+    <div id="output"></div>
+
+    <button onclick="goodbye('JavaScript')">Goodbye</button>
+    <h2 id="gb"></h2>
+  </div>
+
+  <script src="JSscript.js"></script>
 </body>
 </html>

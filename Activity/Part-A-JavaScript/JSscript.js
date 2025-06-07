@@ -39,6 +39,6 @@ document.getElementById("title").innerText = greet(greetname);
 //});
 
 document.getElementById("info").addEventListener("click", () => {
-  document.getElementById("output").innerText = "\nUser, you have clicked the button! Button has been disabled.";
+  document.getElementById("output").innerText = "\nUser, you have clicked the show button! Button has been disabled.";
   document.getElementById("info").disabled = true;
 }, { once: true })
