@@ -2,7 +2,7 @@
 let greetname = "User!"; //variable
 let name = "Benideck J. Longakit"; //variable
 const PLang = ["Programming Languages(Array)", "C", "C#", "Python", "Java"]; //array
-let user = { name: "Benideck Longakit", ID_Number: "23-2707-691", age: 25 , major: "BSCpE", birthday: "September 05, 2004"}; //object
+let user = { name: "Benideck Longakit", ID_Number: "23-2707-691", age: 20 , major: "BSCpE", birthday: "September 05, 2004"}; //object
 
 // Functions in JS
 function greet(userName) {

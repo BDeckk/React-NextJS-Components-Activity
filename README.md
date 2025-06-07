@@ -12,6 +12,6 @@
 
 ## StudentInfo
 - FEATURES
--A form component to input and submit student information.
+- A form component to input and submit student information.
 - All fields are required; submission is blocked if any are left empty.
 - Displays the submitted student’s information after form submission. 
