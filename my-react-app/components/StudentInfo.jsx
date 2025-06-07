@@ -22,38 +22,47 @@ export default function StudentInfo() {
 
   return (
     <div style={{
-      border: "2px solid #ff6600",
-      borderRadius: "10px",
+
       padding: "20px",
-      marginTop: "20px"
+      marginTop: "20px",
+      border: "2px solid #ff6600",
+      borderRadius: "10px"
+
     }}>
       <h2>Student Information Form</h2>
+
       <form onSubmit={handleSubmit}>
+        
         <div style={{ marginBottom: "10px" }}>
           <label>
             Name: <br />
             <input type="text" name="name" value={formData.name} onChange={handleChange} required />
           </label>
         </div>
+
         <div style={{ marginBottom: "10px" }}>
           <label>
             Student ID: <br />
             <input type="text" name="id" value={formData.id} onChange={handleChange} required />
           </label>
         </div>
+
         <div style={{ marginBottom: "10px" }}>
           <label>
             Age: <br />
             <input type="number" name="age" value={formData.age} onChange={handleChange} required />
           </label>
         </div>
+
         <div style={{ marginBottom: "10px" }}>
           <label>
             Major: <br />
             <input type="text" name="major" value={formData.major} onChange={handleChange} required />
           </label>
         </div>
+
         <button type="submit">Submit</button>
+
       </form>
 
       {submittedData && (
