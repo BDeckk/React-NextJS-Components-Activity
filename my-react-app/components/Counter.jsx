@@ -17,8 +17,8 @@ export default function Counter() {
       <h2>Counter</h2>
 
       <p>Current Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>➕ Increase</button>
-      <button onClick={() => setCount(count - 1)} style={{ marginLeft: "10px" }}>➖ Decrease</button>
+      <button onClick={() => setCount(count + 1)}>➕ Increase Count</button>
+      <button onClick={() => setCount(count - 1)} style={{ marginLeft: "10px" }}>➖ Decrease Count</button>
 
     </div>
   );
